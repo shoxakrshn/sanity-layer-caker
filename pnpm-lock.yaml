@@ -20,6 +20,9 @@ importers:
       '@sanity/vision':
         specifier: ^5.31.2
         version: 5.31.2(@babel/runtime@7.29.7)(@codemirror/lint@6.9.7)(@codemirror/theme-one-dark@6.1.3)(codemirror@6.0.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sanity@5.31.2(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.4.0)(@oclif/core@4.14.0)(@sanity/cli-core@1.3.4(@noble/hashes@2.4.0)(@types/node@20.19.43)(babel-plugin-react-compiler@1.0.0)(lightningcss@1.32.0)(yaml@2.9.1))(@types/node@20.19.43)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(babel-plugin-react-compiler@1.0.0)(jiti@2.7.0)(lightningcss@1.32.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(styled-components@6.5.3(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(typescript@5.9.3))(styled-components@6.5.3(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
+      dayjs:
+        specifier: ^1.11.23
+        version: 1.11.23
       next:
         specifier: 16.3.8
         version: 16.3.8(@babel/core@7.29.7)(@types/node@20.19.43)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -3259,6 +3262,9 @@ packages:
 
   date-fns@4.4.0:
     resolution: {integrity: sha512-+1UMbeh68lH1SegH83CGWwpb6OHHbpSgr3+s5Eww5M4CAgswBpoWS0AjTOfEJ33HiYKz1hdj/KTFprzXHmq/6w==}
+
+  dayjs@1.11.23:
+    resolution: {integrity: sha512-QDTCU0M0MxR3hQfnlDJfwekQiaanm1ubOD231u73WBckQ/fsamwRLiE2GBz6D3a/xF1NgfiDLJjXBa1hYOYTtQ==}
 
   debounce@1.2.1:
     resolution: {integrity: sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==}
@@ -9603,6 +9609,8 @@ snapshots:
   dataloader@2.2.3: {}
 
   date-fns@4.4.0: {}
+
+  dayjs@1.11.23: {}
 
   debounce@1.2.1: {}
 
