@@ -1,8 +1,9 @@
-import { notFound } from 'next/navigation';
-import Link from 'next/link';
 import { sanityFetch } from '@/sanity/lib/live';
 import { POST_QUERY } from '@/sanity/lib/queries';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import { urlFor } from '@/sanity/lib/image';
+import Image from 'next/image';
 
 export default async function Page({
   params,
@@ -19,10 +20,10 @@ export default async function Page({
   }
 
   return (
-    <main className="container mx-auto grid grid-cols-1 gap-6 py-12">
+    <main className="container mx-auto grid grid-cols-1 gap-6 p-12">
       {post?.mainImage ? (
-        <img
-          className="w-full aspect-[800/300]"
+        <Image
+          className="w-full aspect-800/300"
           src={urlFor(post.mainImage)
             .width(800)
             .height(300)
